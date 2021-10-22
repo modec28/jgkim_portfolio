@@ -45,3 +45,10 @@ git branch -a
 이렇게 하나씩 입력하면 git branch -a 를 입력했을때 빨간 글씨로 remotes/origin/master만 떠야함.
 git checkout -t origin/master
 이렇게 하면 갑자기 옆의 Project explorer에 폴더와 파일이 주루룩 나타날것임.
+이제 atom 우측 하단의 git을 누르고 init을 하면 오른쪽에 깃허브 창이 나타남.
+
+master branch에 바로 push하는것은 내가 막아놓았기에, 업로드를 위해서는 Pull request를 해야함.
+먼저 branch를 새로 생성한뒤에 publish를 하고, 파일을 업로드한뒤에 push함.
+그 후 깃허브 웹사이트에 들어와서 pull request를 실행하고 merge신청.
+내가 merge받아주면 master branch로 바꾼뒤에 fetch-pull 실행하여 업데이트
+이를 반복하면됩니다.
