@@ -6,6 +6,6 @@ for i in range(int(input())):
     m = l[0][1]
     for j in range(1,n):
         if l[j][1] < m:
-            m = l[i][1]
+            m = l[j][1]
             c +=1
     print(c)
